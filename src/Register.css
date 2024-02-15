@@ -1,0 +1,199 @@
+/* Register.css */
+body {
+    margin: 0;
+    padding: 0;
+    background: white;
+    background-size: cover;
+  }
+  
+  .register-app {
+    display: flex;
+  }
+
+  .header-box {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    display: flex;
+    width: 85%;
+  }
+
+  .firm-icon {
+    border-radius: 50%;
+    width: 40px; /* Adjust the size of the icon as needed */
+     /* Add space between the icon and text */
+    margin-left: 1.5%;
+    margin-right: 10px;
+  }
+
+  .header-register-button-box {
+    background-color: black;
+    color: white;
+    width: 15%;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .column-div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .login-button {
+    background-color:black;
+    color: white;
+    opacity: 1;
+    border: none;
+    display: grid;
+    justify-items: right;
+  }
+  
+  .login-button-img {
+    background-color: black;
+    width: 25px; /* Adjust the size of the login icon as needed */
+    height: 25px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+
+  .register-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .registeration-info-container {
+    max-width: 600px;
+    margin: 0;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 20px; 
+    display: inline-block;
+    text-align: left;
+  }
+
+  .login-information-container {
+    max-width: 600px;
+    margin: 0;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 20px;
+  }
+
+  .personal-information-container {
+    max-width: 600px;
+    margin: 0;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 20px;
+  }
+  
+  .line-container {
+    border-bottom: 2px solid #ccc; /* Light color line at the bottom */
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  
+  .header-box h1 {
+    margin: 0;
+    font-size: 1.5rem; /* Adjust the font size as needed */
+    flex-shrink: 0;
+  }
+  
+  /* Style form fields */
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #f0f0f0;
+    border-bottom: 2px solid #4caf50; /* Add a bottom border */
+    box-sizing: border-box;
+    outline: none; 
+  }
+
+  input:focus {
+    border-bottom: 2px solid #2196f3; /* Change the color on focus if needed */
+  }
+  
+  /* OTP verification */
+  .otp-group {
+    display: flex;
+    align-items: center;
+  }
+  
+  .otp-input {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .otp-button {
+    background-color: #4caf50;
+    color: white;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .otp-button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Submit button */
+  .submit-button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: #45a049;
+  }
+
+  .password-input-container {
+    position: relative;
+  }
+
+  .eye-image {
+    width: 20px;
+    height: 20px;
+  }
+
+  .required {
+    margin-left: 5px;
+    color: red;
+  }
+  
+  .password-input-container input {
+    width: calc(100%); /* Adjust the width of the input */
+    padding: 8px;
+    border: 1px solid #f0f0f0;
+    border-bottom: 2px solid #4caf50; /* Add a bottom border */
+    box-sizing: border-box;
+    outline: none;
+  }
+  
+  .password-input-container .eye-button {
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+
+  
